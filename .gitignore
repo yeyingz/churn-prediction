@@ -1,0 +1,24 @@
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Entornos virtuales
+env/
+venv/
+__pycache__/
+*.pyc
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Modelos entrenados
+*.pkl
+*.joblib
+
+# Archivos de configuración local
+.env
+*.log
+
+# Datos grandes o sensibles
+data/*.csv
+data/*.xlsx
