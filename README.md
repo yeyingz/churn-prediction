@@ -10,8 +10,6 @@ churn-prediction/
 │ 
 ├── data/ # Datasets utilizados 
 ├── notebooks/ # Jupyter notebooks del análisis y modelado 
-├── src/ # Scripts reutilizables 
-├── models/ # Modelos entrenados (si aplica) 
 ├── environment.yml # Entorno Conda reproducible 
 ├── requirements.txt # Librerías necesarias 
 └── README.md # Documentación del proyecto
@@ -25,14 +23,7 @@ churn-prediction/
    git clone https://github.com/yeyingz/churn-prediction.git
    cd churn-prediction
 
-Crea el entorno virtual:
 
-bash
-conda env create -f environment.yml
-conda activate churn-env
-Abre los notebooks en VS Code o Jupyter:
-
-bash
 jupyter notebook
 📊 Métricas del modelo final (XGBoost)
 Accuracy: 0.9993
@@ -70,33 +61,3 @@ Aurelio Jaén, Andalucía, España Proyecto desarrollado en septiembre de 2025
 Este proyecto se distribuye bajo licencia MIT. Puedes usarlo, modificarlo y compartirlo libremente.
 
 ---
-
-## ✅ 2. `.gitignore` recomendado
-
-Este archivo evita subir archivos innecesarios o sensibles al repositorio.
-
-```gitignore
-# Jupyter notebooks checkpoints
-.ipynb_checkpoints/
-
-# Entornos virtuales
-env/
-venv/
-__pycache__/
-*.pyc
-
-# Archivos de sistema
-.DS_Store
-Thumbs.db
-
-# Modelos entrenados
-*.pkl
-*.joblib
-
-# Archivos de configuración local
-.env
-*.log
-
-# Datos grandes o sensibles
-data/*.csv
-data/*.xlsx
