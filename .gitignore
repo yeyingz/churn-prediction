@@ -20,5 +20,5 @@ Thumbs.db
 *.log
 
 # Datos grandes o sensibles
-data/*.csv
-data/*.xlsx
+# data/*.csv
+# data/*.xlsx

@@ -9,9 +9,15 @@ Este proyecto desarrolla un sistema predictivo para anticipar el abandono de cli
 churn-prediction/ 
 │ 
 ├── data/ contract.csv internet.csv personal.csv phone.csv
-├── notebooks/ churn_prediction_code-ipynb informe_tecnico.ipynb
+
+├── notebooks/ churn_prediction_code-ipynb
+
 ├── environment.yml # Entorno Conda reproducible 
+
+├── informe_gecnico.ipynb
+
 ├── requirements.txt # Librerías necesarias 
+
 └── README.md # Documentación del proyecto
 
 ---
