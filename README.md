@@ -8,10 +8,10 @@ churn-prediction/
 │ 
 ├── data/ contract.csv internet.csv personal.csv phone.csv
 ├── notebooks/ churn_prediction_code.ipynb
-├── environment.yml # Entorno Conda reproducible 
+├── environment.yml (Entorno Conda reproducible) 
 ├── informe_tecnico.ipynb
-├── requirements.txt # Librerías necesarias 
-└── README.md # Documentación del proyecto
+├── requirements.txt (Librerías necesarias)
+└── README.md (Documentación del proyecto)
 
 ---
 ## Key Findings
