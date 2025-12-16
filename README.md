@@ -20,7 +20,27 @@ churn-prediction/
 
 └── README.md (Documentación del proyecto)
 
----
+
+### 📊 Métricas del modelo final (XGBoost)
+Accuracy: 0.9993
+
+F1-score: 1.0000
+
+AUC-ROC: 1.0000
+
+### Validación cruzada (5-fold):
+
+Promedio F1-score: 1.0000
+
+Desviación estándar: 0.0000
+
+### 🧠 Variables más influyentes
+TenureMonths
+
+TotalCharges
+
+MonthlyCharges
+
 ## Key Findings
 
 ### 1. La Trampa de la "Falsa Lealtad" (Relación Antigüedad vs. Gasto)
@@ -47,28 +67,6 @@ churn-prediction/
    ```bash
    git clone https://github.com/yeyingz/churn-prediction.git
    cd churn-prediction
-
-
-jupyter notebook
-📊 Métricas del modelo final (XGBoost)
-Accuracy: 0.9993
-
-F1-score: 1.0000
-
-AUC-ROC: 1.0000
-
-Validación cruzada (5-fold):
-
-Promedio F1-score: 1.0000
-
-Desviación estándar: 0.0000
-
-🧠 Variables más influyentes
-TenureMonths
-
-TotalCharges
-
-MonthlyCharges
 
 📌 Requisitos
 Python 3.10
